@@ -52,12 +52,6 @@ app.get('/item5', (req, res) => {
     res.status(200).render('item5.pug', params);
 })
 
-
-
-
-
-
-
 //MONGOOSE STUFF
 //define schema
 const contactSchema = new mongoose.Schema({

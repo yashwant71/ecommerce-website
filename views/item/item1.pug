@@ -1,0 +1,69 @@
+extends itembase.pug 
+
+block style
+    style 
+        include ../../static/style.css
+        include ../../static/itemstyle.css
+    script(src='../../static/itemscript.js') 
+    script(src='../../static/script.js') 
+    script(src='../../static/mediascript.js') 
+    //- script(src='../../static/mediascriptitem.js') 
+block content
+    section.itemdetailcontainer
+        div#mediaitemname1
+        div.imgbox 
+            div.imagescontainer 
+                img(src="./static/itempics/item1/item11.jpg",class="images007", alt="")
+                img(src="./static/itempics/item1/item12.jpg",class="images007", alt="")
+                img(src="./static/itempics/item1/item13.jpg",class="images007", alt="")
+                img(src="./static/itempics/item1/item14.jpg",class="images007", alt="")
+                img(src="./static/itempics/item1/item15.jpg",class="images007", alt="")
+            div.imagecontainer
+                img(src="./static/itempics/item1/item11.jpg",id="imagemain" alt="")
+
+            <div id="myresult" class="img-zoom-result"></div> 
+        div.detailcontainer
+            div.itemname1 Unistar Anti-Skid High Ankle Beast Collection
+            div.itemprice price: 
+                div.itempricenew ₹1120
+                div.itempriceoff 
+                div.availsizecont
+                    div.availsizes available sizes:
+                    select
+                        option(value="14px") 6uk
+                        option(value="14px") 8uk
+                        option(value="14px") 9uk
+                        option(value="14px") 10uk
+            div.itempriceold M.R.P:
+                div.oldprice ₹2020
+            div.offerbox
+                div.offertitle offers
+                    img(src="./static/offericon.svg",alt="")
+                div.offers Get 7.5% up to Rs. 2000 Instant Discount on Standard Chartered Credit Card EMI transactions.
+                div.offers Get 7.5% up to Rs. 2000 Instant Discount on HSBC Credit Card EMI transactions. Here's how.
+            div.discriptionbox
+                div.discription
+                    div.discriptiontitle Item Details
+                        div Oil Stain Water Resistant, Light Weight Trekking Shoes/Riding Shoes- Odur Free and Sweat Absorption with Dust Proof Bag 
+                    div.productdetail Product Details 
+                        div.manufacturer manufacturer 
+                            div unistar
+                        div.packer packer 
+                            div psykiscks
+                        div.countryoforigin country of origin 
+                            div India
+                        div.department department
+                            div men's shoes
+                        div.genericname generic name 
+                            div sports shoes
+                    
+                div.buynowcontainer
+                    div.buynowbtn
+                        div.instock In stock
+                            a(href="#")
+                                i.fa-solid.fa-check.checkicon
+                                            //- payment link down below 
+                        a(href="/") 
+                            div.btn BUY NOW
+            
+

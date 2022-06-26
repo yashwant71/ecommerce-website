@@ -1,0 +1,41 @@
+doctype html 
+html
+    head 
+        style 
+            include ../static/style.css 
+    body
+        nav#navbar
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Contact us]
+        section#content 
+            div Welcome to this site
+            button.btn #[a(href="/") Read more]
+        section#content2 
+            div.card
+                h3 paragraph 1
+                div.card-box
+                    div.card-img
+                        img(src="/static/sec1.png")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum adipisci delectus voluptatibus.
+            div.card
+                h3 paragraph 2
+                div.card-box
+                    div.card-img
+                        img(src="/static/sec2.jpg")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum adipisci delectus voluptatibus.           
+            div.card
+                h3 paragraph 3
+                div.card-box
+                    div.card-img
+                        img(src="/static/sec3.png")
+                    div.card-content
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias earum adipisci delectus voluptatibus.           
+               
+
+
+        footer#footer
+            h3 copyright &copy content 2000

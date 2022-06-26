@@ -1,0 +1,77 @@
+extends itembase.pug 
+
+block style
+    style 
+        include ../../static/style.css
+        include ../../static/itemstyle.css
+    script(src='../../static/itemscript.js') 
+    script(src='../../static/script.js') 
+    //- script(src='../../static/mediascript.js') 
+block content
+    section.itemdetailcontainer
+        div#mediaitemname1
+        div.imgbox 
+            div.imagescontainer 
+                //- add image's name after("./static//itempics/item/item1.jpg") (put the image in static/itempics/item(number)/item(picnumber) folder)
+                img(src="./static/itempics/item2/item21.jpg",class="images007", alt="")
+                img(src="./static/itempics/item2/item22.jpg",class="images007", alt="")
+                img(src="./static/itempics/item2/item23.jpg",class="images007", alt="")
+                img(src="./static/itempics/item2/item24.jpg",class="images007", alt="")
+                img(src="./static/itempics/item2/item25.jpg",class="images007", alt="")
+            div.imagecontainer
+                img(src="./static/itempics/item2/item21.jpg",id="imagemain" alt="")
+                //- add first image above^
+            <div id="myresult" class="img-zoom-result"></div> 
+        div.detailcontainer 
+            div.itemname1 FASHION VICTIM Men's Treaking & Hiking Shoe
+            //- name of product ^
+            div.itemprice price: 
+                div.itempricenew 799
+                             //- price ^
+                div.itempriceoff 
+                div.availsizecont
+                    div.availsizes available sizes:
+                    select
+                        option(value="14px") 8uk
+                        option(value="14px") 9uk
+                        option(value="14px") 10uk
+                                    //- sizes^ (add more option if more sizes available) 
+            div.itempriceold M.R.P:
+                div.oldprice 1799
+                 //- MRP price ^
+            div.offerbox
+                div.offertitle offers
+                    img(src="./static/offericon.svg",alt="")
+                div.offers Avail No Cost EMI on select cards for orders above ₹3000
+                div.offers Get 5% up to Rs. 2000 Instant Discount on Yes Bank Credit Card o
+                //- add offers^
+            div.discriptionbox
+                div.discription 
+                    div.discriptiontitle Item Details
+                        div Sole: Rubber ,Closure: Pull On ,Shoe Width: Wide ,Outer Material: Synthetic, Inner Material: Synthetic ,Sole Material: Rubber; Color: Brown ,Closure Type: Slip On; Toe Style: Closed Toe; Decent
+                    //- add item discription^
+                    div.productdetail Product Details 
+                        div.manufacturer manufacturer 
+                            div fashion victim
+                        //- add who made it^
+                        div.packer packer 
+                            div psykiscks
+                        //- add packer^
+                        div.countryoforigin country of origin 
+                            div india
+                        //- country ^
+                        div.department department
+                            div men's shoes
+                        div.genericname generic name 
+                            div sports shoes
+                    
+                div.buynowcontainer
+                    div.buynowbtn
+                        div.instock In stock
+                            a(href="#")
+                                i.fa-solid.fa-check.checkicon
+                                            //- payment link down below 
+                        a(href="/") 
+                            div.btn BUY NOW
+            
+

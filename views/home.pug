@@ -1,0 +1,80 @@
+extends base.pug
+
+block style
+    style 
+        include ../static/style.css
+    script(src='../static/script.js') 
+block content
+    section#content 
+        img(src="./static/shoebg.jpg", alt="")
+        img(src="./static/shoebg2.jpg", alt="")
+        img(src="./static/shoebg3.jpg", alt="")
+        div WELCOME TO PSYKISCKS !
+    section#content2 
+        div#content2head Browse Our Latest Collection 
+        div#itembox
+            div.item#item1
+                a(href="/item1")
+                    img(src= "./static//itempics/item1/item11.jpg", alt="")
+                    div.itemname Unistar Anti-Skid High Ankle Beast Collection
+                    div.pricebox 
+                        div.pricenew ₹1120
+                        div.priceold ₹2020
+                        div.priceoff 
+                    div.instock In stock
+                        a(href="#")
+                            i.fa-solid.fa-check.checkicon
+                    a(href="/item1")
+                        div.btn BUY NOW
+            div.item#item2
+                a(href="/item2")
+                    img(src="./static/itempics/item2/item21.jpg", alt="")
+                    div.itemname FASHION VICTIM Men's Treaking Hiking Shoe
+                    div.pricebox 
+                        div.pricenew ₹799
+                        div.priceold ₹1799
+                        div.priceoff 
+                    div.instock In stock
+                        a(href="#")
+                            i.fa-solid.fa-check.checkicon
+                    a(href="/item2")
+                        div.btn BUY NOW
+            div.item#item3
+                a(href="/item3")
+                    img(src="./static/itempics/item3/item31.jpg", alt="")
+                    div.itemname OFF LIMITS Men Ultra FIT PU (Memory Cushion) Comfortable
+                    div.pricebox 
+                        div.pricenew ₹1600
+                        div.priceold ₹3299
+                        div.priceoff 
+                    div.instock In stock
+                        a(href="#")
+                            i.fa-solid.fa-check.checkicon
+                    a(href="/item3")
+                        div.btn BUY NOW
+            div.item#item4
+                a(href="/item4")
+                    img(src="./static/itempics/item4/item41.jpg", alt="")
+                    div.itemname FURO by Redchief Men's H20006-a F007 Hiking Shoe
+                    div.pricebox 
+                        div.pricenew ₹1599
+                        div.priceold ₹2200
+                        div.priceoff 
+                    div.instock In stock
+                        a(href="#")
+                            i.fa-solid.fa-check.checkicon
+                    a(href="/item4")
+                        div.btn BUY NOW
+            div.item#item5
+                a(href="/item5")
+                    img(src="./static/itempics/item5/item51.jpg", alt="")
+                    div.itemname Bacca Bucci Men's Trekking Shoe
+                    div.pricebox 
+                        div.pricenew ₹1399
+                        div.priceold ₹2999
+                        div.priceoff 
+                    div.instock In stock
+                        a(href="#")
+                            i.fa-solid.fa-check.checkicon
+                    a(href="/item5")
+                        div.btn BUY NOW

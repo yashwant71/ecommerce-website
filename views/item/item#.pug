@@ -1,0 +1,73 @@
+extends itembase.pug 
+
+block style
+    style 
+        include ../../static/style.css
+        include ../../static/itemstyle.css
+    script(src='../../static/itemscript.js') 
+    script(src='../../static/script.js') 
+    //- script(src='../../static/mediascript.js') 
+block content
+    section.itemdetailcontainer
+        div#mediaitemname1
+        div.imgbox 
+            div.imagescontainer 
+                //- add image's locations("./static//itempics/item/item1.jpg") (put the image in static/itempics/item(number)/item(picnumber) folder)
+                img(src="./static/itempics/item/item.jpg",class="images007", alt="")
+                img(src="./static/itempics/item/item.jpg",class="images007", alt="")
+                img(src="./static/itempics/item/item.jpg",class="images007", alt="")
+                img(src="./static/itempics/item/item.jpg",class="images007", alt="")
+            div.imagecontainer
+                img(src="./static/itempics/item/item.jpg",id="imagemain" alt="")
+                //- add first image above^
+            <div id="myresult" class="img-zoom-result"></div> 
+
+        div.detailcontainer 
+            div.itemname1 
+            //- name of product ^
+            div.itemprice price: 
+                div.itempricenew 
+                             //- price ^
+                div.itempriceoff 
+                div.availsizecont
+                    div.availsizes available sizes:
+                    select
+                        option(value="14px") 6uk
+                        option(value="14px") 8uk
+                        option(value="14px") 10uk
+            div.itempriceold M.R.P:
+                div.oldprice 
+                 //- MRP price ^
+            div.offerbox
+                div.offertitle offers
+                    img(src="./static/offericon.svg",alt="")
+                div.offers Get 7.5% up to Rs. 2000 Instant Discount on Standard Chartered Credit Card EMI transactions
+                div.offers Get 7.5% up to Rs. 2000 Instant Discount on HSBC Credit Card EMI transactions. Here's how.
+            div.discriptionbox
+                div.discription
+                    div.discriptiontitle Item Details
+                        div 
+                    //- add item discription^
+                    div.productdetail Product Details 
+                        div.manufacturer manufacturer 
+                            div 
+                        //- add who made it^
+                        div.packer packer 
+                            div psykiscks
+                        div.countryoforigin country of origin 
+                            div India
+                        div.department department
+                            div men's shoes
+                        div.genericname generic name 
+                            div sports shoes
+                    
+                div.buynowcontainer
+                    div.buynowbtn
+                        div.instock In stock
+                            a(href="#")
+                                i.fa-solid.fa-check.checkicon
+                                            //- payment link down below 
+                        a(href="/") 
+                            div.btn BUY NOW
+            
+

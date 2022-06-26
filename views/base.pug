@@ -1,0 +1,61 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='Some description')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title website
+    block style
+        style 
+            include ../static/style.css 
+    script(src='https://kit.fontawesome.com/898a3699ac.js', crossorigin='anonymous')
+    script(src='../static/script.js')
+    script(src='../static/mediascript.js')
+  Body
+    nav#navbar
+        ul 
+            i.fa-solid#menu.fa-2x.off
+            li.a
+              a(href="/")#a1 
+                i.fa-solid.fa-house
+            li.a#a2 About Us
+            li.a #[a(href="/contact")#a3 Contact us]
+            li#godown Our Products
+              span
+                a(href="/")#godowna
+                  i#godowni
+            li#logo PSYKISCKS
+    div#emptynav
+
+    block content
+    block foot
+      #footer
+        div#socialbox 
+          a(href="#")
+            img(src="./static/fbicon.svg",alt="")
+          a(href="#")
+            img(src="./static/yticon.svg",alt="")
+          a(href="#")
+            img(src="./static/instaicon.svg",alt="")
+          a(href="#")
+            img(src="./static/twittericon.svg",alt="")
+        div#contactinfobox
+          div#contactinfo
+            div.cinfo address: 
+              div Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio autem labore excepturi aut. Blanditiis, delectus perspiciatis ea in non omnis.
+            div.cinfo @Email:
+              div email123@gmail.com
+            div.cinfo Contact No: 
+              div +91 987654321
+          div#sideinfobox 
+            div.sideinfo 
+              i.fa-solid.fa-shield-halved.sideinfoicon
+              div secure payment 
+            div.sideinfo
+              i.fa-solid.fa-handshake-angle.sideinfoicon
+              div quality products
+            div.sideinfo
+              i.fa-solid.fa-headset.sideinfoicon
+              div easy query resolution
+
+        

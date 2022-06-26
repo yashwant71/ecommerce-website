@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+#contactimg{
+    width: 100vw;
+    position: absolute;
+    top: 8vh;
+    height: 160vh;
+    z-index: -2;
+}
+
+#contact-us {
+    display: flex;
+    width: 100vw;
+    /* margin: 10px auto; */
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.btn{
+    width: 40%;
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myinput {
+    width: 40vw;
+    padding: 10px;
+    margin: 10px;
+}
+
+#yourself {
+    padding-bottom: 22vh;
+}
+
+/* #footer {
+    margin-top: 135px;
+} */
+
+#thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+    margin: 10vh;
+    padding: 10vh;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #8080809c;
+    text-shadow: 1px 1px darkgray;
+    border-radius: 10px;
+}
+
+#thanks h1 {
+    padding: 10vh;
+    font-weight: bolder;
+    font-size: 3.2rem;
+}
+
+#thanks h3 {
+    font-size: 2rem;
+}
+
+@media screen and (max-width:550px){
+    .myinput{
+        width: 84vw;
+    }
+    #contactimg{
+        height: 168.5vh;
+    }
+}

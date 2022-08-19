@@ -646,7 +646,7 @@
 
     .item img {
         width: 65vw;
-        height: 60vh;
+        /* height: 60vh; */
     }
     #socialbox a img{
         width: 10vw;

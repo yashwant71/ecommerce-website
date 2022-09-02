@@ -321,7 +321,7 @@
 }
 
 .item:hover {
-    box-shadow: 10px 10px 2px lightgray;
+    box-shadow: 5px 5px 2px lightgray;
     transform: scale(1.02);
 }
 
@@ -391,7 +391,7 @@
 
 .btn {
     height: 8vh;
-    /* background-color: red; */
+    background-color: #0030ff30;
     margin: 4px 0px;
     transition: background-color 0.4s ease-in-out 0s, color 0.4s ease-in 0s, font-weight 0.4s ease-in 0s;
     width: 100%;

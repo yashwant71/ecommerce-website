@@ -720,9 +720,9 @@
     .item img{
         height: 50vh;
     }
-    #content img{
+    /* #content img{
         height: 81vh;
-    }
+    } */
     #content{
         font-size: 1.7rem;
         height: 36vh;
@@ -747,9 +747,9 @@
         font-size: 1.7rem;
         height: 30vh;
     }
-    #content img{
+    /* #content img{
         height: 63vh;
-    }
+    } */
 
 }
 

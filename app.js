@@ -62,5 +62,5 @@ app.post('/contact', async(req, res) => {
 
 // START THE SERVER
 app.listen(port, () => {
-    console.log(`The application started successfully on port ${port}`);
+    console.log(`http://localhost:${port}`);
 });

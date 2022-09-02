@@ -317,6 +317,7 @@
     border-radius: 5px;
     width: 25vw;
     transition: transform 0.5s ease-out 0s, box-shadow 0.5s ease-out 0s;
+    height: fit-content;
 }
 
 .item:hover {

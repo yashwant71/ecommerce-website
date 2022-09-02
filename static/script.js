@@ -23,11 +23,11 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         })
         godown.addEventListener('mouseover', () => {
-            godowni.classList.add('fa-solid')
+            // godowni.classList.add('fa-solid')
             godowni.classList.add('fa-angles-down')
         })
         godown.addEventListener('mouseout', () => {
-            godowni.classList.remove('fa-solid')
+            // godowni.classList.remove('fa-solid')
             godowni.classList.remove('fa-angles-down')
         })
     }

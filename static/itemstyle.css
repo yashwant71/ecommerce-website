@@ -34,7 +34,8 @@
 
 }
 .imagecontainer img{
-    width: 40vw;
+    /* width: 40vw; */
+    object-fit: contain;
     height: inherit;
 }
 .detailcontainer{

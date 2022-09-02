@@ -283,29 +283,6 @@
     height: inherit;
     width: 100vw;
 }
-/* .btn {
-    width: 90px;
-    margin-top: 15px;
-    padding: 6px;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid black;
-} */
-
-/* .btn a {
-    text-decoration: none;
-
-}
-
-.btn:hover {
-    background-color: lightgray;
-    border-color: gray;
-    font-weight: bold;
-} */
-
-/* #content2 {
-    height: 60vh;
-} */
 
 #content2head {
     font-size: 2rem;
@@ -315,15 +292,12 @@
     height: 25vh;
     text-decoration: underline;
     text-decoration-style: double;
-
 }
 
 #itembox {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
-
 }
 
 .item a {
@@ -358,6 +332,7 @@
     margin-top: 10px;
     /* transition: width 0.5s ease-in-out 0s; */
     transition: transform 0.5s ease-in-out 0s;
+    object-fit: contain;
 }
 
 .item img:hover {
